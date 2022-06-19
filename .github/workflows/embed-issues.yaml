@@ -4,7 +4,7 @@ on:
   push:
   workflow_dispatch:
   schedule:
-    - cron:  '0 * * * *'
+    - cron: "0 * * * *"
 
 jobs:
   embed-issues:
@@ -21,3 +21,12 @@ jobs:
 
       - name: Update README.md
         run: node .github/workflows/embed-issues.mjs profile/README.md
+
+      - name: Commit README.md
+        run: |
+          echo "machine github.com login accesskey password ${{ secrets.GITHUB_TOKEN }}" > ~/.netrc
+          git config --global user.email "actions@example.com"
+          git config --global user.name "GitHub Actions"
+          git add README.md
+          git commit -m "update README.md"
+          git push
