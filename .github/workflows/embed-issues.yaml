@@ -22,13 +22,19 @@ jobs:
       - name: Update README.md
         run: node .github/workflows/embed-issues.mjs profile/README.md
 
-      - name: Commit README.md
+      - name: Check if README.md was updated
+        id: has-changes
         run: |
           if ! git diff --exit-code --name-only profile/README.md; then
-            echo "machine github.com login accesskey password ${{ secrets.GITHUB_TOKEN }}" > ~/.netrc
-            git config --global user.email "actions@example.com"
-            git config --global user.name "GitHub Actions"
-            git add profile/README.md
-            git commit -m "update good first issues"
-            git push
+            ::set-output name=UPDATED::1
           fi
+
+      - name: Commit README.md
+        if: steps.has-changes.UPDATED == '1'
+        run: |
+          echo "machine github.com login accesskey password ${{ secrets.GITHUB_TOKEN }}" > ~/.netrc
+          git config --global user.email "actions@example.com"
+          git config --global user.name "GitHub Actions"
+          git add profile/README.md
+          git commit -m "update good first issues"
+          git push
