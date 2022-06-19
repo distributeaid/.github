@@ -62,9 +62,7 @@ Lead: [Taylor Fairbank](https://github.com/jtfairbank)
 #### Good first issues
 
 <!-- embed-issues distributeaid.org -->
-
-_There are currently no **good first issues** in the [distributeaid.org](https://github.com/distributeaid/distributeaid.org/issues?q=is%3Aissue+label%3A%22good+first+issue%22+is%3Aopen) project._
-
+*There are currently no **good first issues** in the [distributeaid.org](https://github.com/distributeaid/distributeaid.org/issues?q=is%3Aissue+label%3A%22good+first+issue%22+is%3Aopen) project.*
 <!-- embed-issues-end -->
 
 ### 📦 Shipment Tracker
@@ -80,7 +78,7 @@ Lead: [Maxime Preaux](https://github.com/deammer) (frontend), [Markus Tacker](ht
 #### Good first issues
 
 <!-- embed-issues shipment-tracker -->
-
+- [#830 fix(deps): update apollo graphql packages to v3.9.0](https://github.com/distributeaid/shipment-tracker/pull/830)
 - [#819 fix(deps): update dependency nanoid to v4](https://github.com/distributeaid/shipment-tracker/pull/819)
 - [#767 Shipments only need exactly one sending and receiving hub](https://github.com/distributeaid/shipment-tracker/issues/767)
 - [#763 Single-select drop down should not have pre-filled value (react-hook-form issue)](https://github.com/distributeaid/shipment-tracker/issues/763)
@@ -106,7 +104,5 @@ Lead: [Markus Tacker](https://github.com/coderbyheart)
 #### Good first issues
 
 <!-- embed-issues needs-assessment,needs-assessment-storage -->
-
-_There are currently no **good first issues** in the [needs-assessment](https://github.com/distributeaid/needs-assessment/issues?q=is%3Aissue+label%3A%22good+first+issue%22+is%3Aopen), or [needs-assessment-storage](https://github.com/distributeaid/needs-assessment-storage/issues?q=is%3Aissue+label%3A%22good+first+issue%22+is%3Aopen) project._
-
+*There are currently no **good first issues** in the [needs-assessment](https://github.com/distributeaid/needs-assessment/issues?q=is%3Aissue+label%3A%22good+first+issue%22+is%3Aopen), or [needs-assessment-storage](https://github.com/distributeaid/needs-assessment-storage/issues?q=is%3Aissue+label%3A%22good+first+issue%22+is%3Aopen) project.*
 <!-- embed-issues-end -->
