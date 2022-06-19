@@ -1,0 +1,22 @@
+name: Embed Good First Issues in README
+
+on:
+  push:
+  workflow_dispatch:
+  cron: "0 * * * *"
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - uses: actions/setup-node@v3
+        with:
+          node-version: "16.x"
+
+      - run: npm i @octokit/core
+
+      - name: Update README.md
+        run: node .github/.github/workflows/embed-issues.mjs profile/README.md
