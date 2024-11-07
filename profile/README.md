@@ -1,92 +1,74 @@
 # Distribute Aid
 
-Distribute Aid delivers humanitarian aid to communities in need.
+Distribute Aid organizes the world's largest mutual aid supply-chain. Our processes are designed to prioritize the needs of our frontline partners while minimizing costs and shipping complications.
 
-By coordinating end-to-end shipments, we make it easy for donors to connect with frontline aid organisations, understand the needs on the ground, and get their aid delivered.
+We take a long-term approach, participating in both the emergency response longer term recovery phases of acute crises (war, natural disasters), as well as responding to ongoing crisis (refugees, poverty). This allows us to maintain our network and operational capacity in a region, so that our partners can depend on us and we are collectively ready to respond to newly emerging crises there.
 
-## 📅 Upcoming Events
+![DA Circular Economy](https://github.com/user-attachments/assets/9689126a-dfb0-49e5-8e29-4fbfdce5c053)
 
-You can find announcements of upcoming free open-source coding events on [our Open Collective events page](https://opencollective.com/distribute-aid-usa/events). We have two event formats: Livestreams and Code Jams.
+## ⛑️ Responses
 
-### Livestreams
+We are currently responding to support:
 
-Join [Taylor](https://twitter.com/borderless_dev) and [Carmen](https://twitter.com/hola_soy_milk) every Thursday at 5pm CET / 11am EST / 8am PST. We pair up each week to hack on various Distribute Aid tech projects, whether it’s related to frontend, backend, documentation, or design. You can [catch us live on YouTube](https://www.youtube.com/@distributeaid)!
+- Refugees in Europe (France, Greece, Italy, the Balkans)
+- Civillians in Ukraine
+- Displaced People in the Levant (Gaza, West Bank, Lebanon)
+- Disaster Response in the SouthEast US
+- Mutual Aid Groups in the US
 
-### Code Jams
+In the past we've also responded to:
 
-Our Code Jams are a great way to find out what open-source at Distribute Aid is all about and make your first contribution! It's a mix of office hours and pair programming hosted by [Taylor](https://twitter.com/borderless_dev). The times vary so we can include folks from all around the world. Please note that you do have to register for these events, and will receive an email with a zoom link for the Code Jam at the end of the registration process.
+- COVID-19 in Europe, the US, and Lebanon
+- Afghans Evacuated to the US
 
-## ⛑️ Contributing
+## 👋 Contributing
 
-The foundation of the refugee aid movement is built by
-everyday folks putting in a few hours every week, and you should be proud to be
-a part of it.
+The foundation of grassroots aid movements is built by everyday folks putting in a few hours every week, and you should be proud to be a part of it. Through your work with Distribute Aid you will make it easier for hundreds of grassroots organizations and thousands of aid workers to improve the lives of hundreds of thousands of people. We're on track to save our frontline partners hundreds of hours of work, and deliver up to $10,000,000 worth of aid each year!
 
-Through your work with Distribute Aid you will make it easier for hundreds of
-aid workers on the ground to improve the lives of tens of thousands of
-newcomers.
+We take a people-first approach at Distribute Aid, and will do our best to match you up with work that fits your skill set and interests. If you're not already in touch yet, please introduce yourself by emailing <hello@distributeaid.org> and let us know what technologies you are familiar with as well as how much time you are willing to commit as a contributor. One of our tech leads will help get you onboarded to our Open Source Contributors team and started on your first contribution.
 
-We're on track to save
-refugee aid groups hundreds of hours and create hundreds of thousands of Euros
-in value for the refugee aid supply chain every year!
+Our tech team is fully remote. It's possible to work asynchronously using Github Issues, Github Pull Requests, and Slack. As a contributor, you're also welcome to drop into our weekly Tech Hangs on Wednesdays and Thursdays at 18 - 20 CET (12 - 2pm EST). We have a monthly Tech meeting at 18 CET (12pm EST) during the first Wednesday of each month that everyone is encouraged to attend (or at least contribute an update to the slides and catchup on the zoom recording if you can't make it).
 
-We take a people-first approach at Distribute Aid, and will do our best to match
-you up with work that fits your skill set and interests. Please introduce
-yourself in [our Slack](https://distributeaid.github.io/slack-invite-link/) and
-which technologies you are familiar with as well as how much time you are
-willing to commit for your contributions.
+Please read our [Code of Conduct](https://github.com/distributeaid/.github/blob/saga/CODE_OF_CONDUCT.md).
 
-We'll match you with one of our tech leads to get you started on your first
-contribution on one of our tech projects.
+## Projects
 
-But first, please read our [Code of Conduct](https://github.com/distributeaid/.github/blob/saga/CODE_OF_CONDUCT.md).
+### 🕊️ DA Landing Site
 
-## Projects seeking contributions
+> New Website (trying to launch): <https://github.com/distributeaid/next-website-v2>
 
-### 🕊️ DA Landing Site 2.0
+> Designs for New Website: <https://www.figma.com/design/Yq8LKeIVka701hYL45heud/Colors-for-DA>
 
-> <https://github.com/distributeaid/distributeaid.org>
+> Previous Website (currently live): <https://github.com/distributeaid/distributeaid.org>
 
-Distribute Aid's landing site, where we get to tell the world who the heck we are and what the hell we're doing!
+Distribute Aid's landing site. This includes typical information about the organization, our work and impact, how to contact us, and where to donate. It is also the public-facing frontend to share information and insights from our other projects, such as the Needs for each region we work in and the shipments we're sending to meet those needs.
 
-Technology: ⚙ TypeScript, Gatsby.js, GraphQL, React, Tailwind, Netlify, Forestry.io
+Technology: ⚙ TypeScript, NextJS, React, Radix UI, Tailwind
 
-Lead: [Taylor Fairbank](https://github.com/jtfairbank)
+### 🚚 Shipment Data Reporting Pipeline
 
-#### Good first issues
+> Backend (trying to launch): <https://github.com/distributeaid/aggregated-public-information>
 
-<!-- embed-issues distributeaid.org -->
-- [#886 "More info" buttons in the donate page show an incorrect icon](https://github.com/distributeaid/distributeaid.org/issues/886)
-- [#865 chore(deps): update gatsby monorepo (major)](https://github.com/distributeaid/distributeaid.org/pull/865)
-- [#852 E2E Tests failing due to js errors on the campaign page.](https://github.com/distributeaid/distributeaid.org/issues/852)
-- [#812 Load Additional Region Data Model Fields into Gatsby ](https://github.com/distributeaid/distributeaid.org/issues/812)
-- [#772 Refactor Custom CSS Classes in Stylesheets > Tailwind Classes](https://github.com/distributeaid/distributeaid.org/issues/772)
-- [#630 Needs Assessment: Shelter and Storage Data Visualization](https://github.com/distributeaid/distributeaid.org/issues/630)
-- [#629 Needs Assessment: Food Data Visualization](https://github.com/distributeaid/distributeaid.org/issues/629)
-- [#628 Needs Assessment: Hygiene Data Visualization](https://github.com/distributeaid/distributeaid.org/issues/628)
-- [#627 Needs Assessment: Diapers Data Visualization](https://github.com/distributeaid/distributeaid.org/issues/627)
-- [#626 Needs Assessment: Baby Clothing Data Visualization](https://github.com/distributeaid/distributeaid.org/issues/626)
-- [#625 Needs Assessment: Clothing Data Visualization](https://github.com/distributeaid/distributeaid.org/issues/625)
-- [#592 Use @tailwindcss/typography to style react components instead of using Tailwind CSS classes directly](https://github.com/distributeaid/distributeaid.org/issues/592)
-- [#584 Create Content Block: Image with Caption](https://github.com/distributeaid/distributeaid.org/issues/584)
-- [#571 Feat: Load Media Asset Data Model into Gatsby](https://github.com/distributeaid/distributeaid.org/issues/571)
-- [#546 Create Teams Page in About Us Section](https://github.com/distributeaid/distributeaid.org/issues/546)
-- [#527 Add arrows to arch on globe](https://github.com/distributeaid/distributeaid.org/issues/527)
-<!-- embed-issues-end -->
+> Frontend: Per-shipment and summary data will be shown through the landing site (see above) on Shipment pages, Response pages, and supply-chain visualizations.
+
+Our Shipment Data Reporting Pipeline ingests data that we record for each shipment, proccesses it into impact stats, and presents it through a public API that is consumed by our landing site as well as shared with researchers and other thrid parties. Data handled by the pipeline includes:
+
+* Product Information such as Cost, Weight, Volume, # Needs Met
+* Shipment Data such as Summaries, Routes, Cargo, and Cost
+* Economic & Currency Comparisons
+
+Technology: ⚙ Postgres, TypeScript, NodeJS, Strapi, Jest, Supertest
 
 ### 📋 Needs Assessment
 
-> <https://github.com/distributeaid/needs-assessment>  
-> <https://github.com/distributeaid/needs-assessment-storage>
+> New Needs Assessment Backend: <https://github.com/distributeaid/aggregated-public-information>
+
+> Frontend: The needs assessment forms and summary response data will be displayed on our landing site (see above).
+
+> Old Needs Assessment Frontend: <https://github.com/distributeaid/needs-assessment>
+
+> Old Needs Assessment Backend: <https://github.com/distributeaid/needs-assessment-storage>
 
 The goal of this project is to provide a way for Distribute Aid to run needs assessment using forms that can be modified using low-code or zero-code approach. These forms need to provide validation and flow logic.
 
-Technology: ⚙ TypeScript, React, Node.js
-
-Lead: N/A
-
-#### Good first issues
-
-<!-- embed-issues needs-assessment,needs-assessment-storage -->
-*There are currently no **good first issues** in the [needs-assessment](https://github.com/distributeaid/needs-assessment/issues?q=is%3Aissue+label%3A%22good+first+issue%22+is%3Aopen), or [needs-assessment-storage](https://github.com/distributeaid/needs-assessment-storage/issues?q=is%3Aissue+label%3A%22good+first+issue%22+is%3Aopen) project.*
-<!-- embed-issues-end -->
+Technology: ⚙ Postgres, TypeScript, NodeJS, Strapi, Jest, Supertest
