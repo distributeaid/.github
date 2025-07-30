@@ -37,7 +37,7 @@ Please read our [Code of Conduct](https://github.com/distributeaid/.github/blob/
 
 > New Website (trying to launch): <https://github.com/distributeaid/next-website-v2>
 
-> Designs for New Website: <https://www.figma.com/design/Yq8LKeIVka701hYL45heud/Colors-for-DA>
+> Designs for New Website: <https://www.figma.com/design/VV226wpUPfAUsRv7gYrh1u/DA-Redesigns>
 
 > Previous Website (currently live): <https://github.com/distributeaid/distributeaid.org>
 
